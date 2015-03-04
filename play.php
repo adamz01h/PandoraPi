@@ -1,8 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-
-echo exec('echo -n "p" >> /home/pi/.config/pianobar/ctl');
+echo exec('echo -n "p" >> ctl');
 $play = file_get_contents( 'playctl' );
 echo $play;
 

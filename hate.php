@@ -1,4 +1,4 @@
 <?php
-echo exec('echo -n "-" >> /home/pi/.config/pianobar/ctl');
+echo exec('echo -n "-" >> ctl');
 header("Location:index.php");
 ?>

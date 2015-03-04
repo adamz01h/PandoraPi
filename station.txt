@@ -1,0 +1,91 @@
+0) 'Weird Al' Yankovic Radio
+1) AC/DC Radio
+2) AFI Radio
+3) Anti Heroes Radio
+4) Atreyu Radio
+5) Avenged Sevenfold Radio
+6) Basshunter Radio
+7) Black Betty Radio
+8) Blister In The Sun Radio
+9) Cage The Elephant Radio
+10) Celldweller Radio
+11) Chevelle Radio
+12) Christmas Radio
+13) Cinco de Mayo Radio
+14) Classical Christmas
+15) Classical Solo Piano Radio
+16) Clean Tears Radio
+17) Club / Dance
+18) Comedy Icons Radio
+19) Dance Pop
+20) Deadmau5 Radio
+21) Deep House
+22) Disturbed Radio
+23) DotEXE Radio
+24) Drowning Pool Radio
+25) Drum & Bass
+26) Dubstep Radio
+27) E.S. Posthumus Radio
+28) Eiffel 65 Radio
+29) Electronic Cardio Radio
+30) Electronica
+31) Electronica / IDM
+32) Fallout Boy Radio
+33) Fatboy Slim Radio
+34) Flogging Molly Radio
+35) Foo Fighters Radio
+36) Fort Minor Radio
+37) Gorillaz Radio
+38) Green Day Radio
+39) Halestorm Radio
+40) Hans Zimmer (Composer) Radio
+41) Hellogoodbye Radio
+42) iCage the Elephant Alt. Rock Radio*
+43) Imagine Dragons Radio
+44) Istanbul (Not Constantinople) Radio
+45) John Mayer Radio
+46) John Mellencamp Radio
+47) Journey Radio
+48) Lady Gaga Radio
+49) Lana Del Rey Radio
+50) Latin Pop
+51) Like A G6 Radio
+52) Lindsey Stirling Radio
+53) Linkin Park Radio
+54) Monster (DotEXE Remix) Radio
+55) Mudvayne Radio
+56) New Found Glory Radio
+57) Night At The Dogs Radio
+58) Nightcore Radio
+59) Of Monsters & Men Radio
+60) Oliver Smith Radio
+61) Panic At The Disco Radio
+62) Parov Stelar Radio
+63) Paul Keeley Radio
+64) Protest The Hero Radio
+65) Psy Trance
+66) QuickMix
+67) Radioactive Radio
+68) Red Hot Chili Peppers Radio
+69) Relient K Radio
+70) Rise Against Radio
+71) Sammy Hagar Radio
+72) Sandstorm Radio
+73) Set It Off Radio
+74) Skrillex Radio
+75) Skyrim (Original Game Soundtrack) Radio
+76) Smooth Jazz Radio
+77) Sorry For Party Rocking Radio
+78) Soundgarden Radio
+79) Sum 41 Radio
+80) Teen Pop
+81) The Cab Radio
+82) The Killers Radio
+83) The Ramones Radio
+84) Three Days Grace Radio
+85) Thunderstruck Radio
+86) Today's Hits Radio
+87) Trance
+88) Trance Radio
+89) Trapt Radio
+90) Tut Tut Child Radio
