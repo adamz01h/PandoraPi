@@ -6,6 +6,13 @@ echo "Pandora Password"
 read upass
 sudo chmod -R 777 $pwd
 
+if [ -d ~/.config/ ]
+then
+echo "Found hidden folder config ... Skipping"
+else
+mkdir ~/.config/
+fi
+
 if  [  -d ~/.config/pianobar/  ]
 then
 echo "Found pianobar config directory...Skipping"
@@ -37,7 +44,7 @@ else
 sudo mkfifo ctl
 fi
 sudo chmod 666 ctl
-sudo chmod 774 eventcommand.sh
+sudo chmod 777 eventcommand.sh
 echo "event_command = "$pwd"/eventcommand.sh" >> ~/.config/pianobar/config
 echo "fifo = "$pwd"/ctl" >> ~/.config/pianobar/config
 sudo usermod -a -G audio www-data
