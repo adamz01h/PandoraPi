@@ -5,8 +5,21 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors',1);
+
+ session_start();
+
+    if (isset($_SESSION['login'])) {
+        
+}else{
+
+ header('LOCATION:login.php');
+
+}
+
+echo exec('echo -n "e" >> ctl');
 $stations = file( 'station.txt' );
 $info = file( 'songinfo.txt' );
+
 ?>
 <style>
 select > .placeholder{

@@ -1,10 +1,9 @@
 #!/bin/bash
 pwd=$(pwd)
 fold="$HOME/.config/pianobar"
-stl="var/www/station.txt"
+stl="/var/www/html/station.txt"
 ctlf="$fold/ctl"
 nowplaying="$fold/nowplaying"
-songinfofile="/var/www/songinfo.txt"
 while read L; do
         k="`echo "$L" | cut -d '=' -f 1`"
         v="`echo "$L" | cut -d '=' -f 2`"
@@ -14,7 +13,8 @@ done < <(grep -e '^\(title\|artist\|album\|stationName\|pRet\|pRetStr\|wRet\|wRe
 case "$1" in
 
         songstart)
-        echo -e "$artist \n$title \n$stationName \n$rating \n$coverArt \n$album \n$songDuration" > "$songinfofile"
+        echo -e "$artist \n$title \n$stationName \n$rating \n$coverArt \n$album \n$songDuration \n$id" > /var/www/html/songinfo.txt
+	echo -e "$title \n$artist \n$album \n$stationName \n$songStationName \n$pRet \n$pRetStr \n$wRet \n$wRetStr \n$songDuration \n$songPlayed \n$rating \n$coverArt \n$stationCount" > $fold/info.txt
 ;;
 	songlove)
         echo -e "$artist \n$title \n$stationName \n$rating \n$coverArt \n$album" > "$nowplaying"
