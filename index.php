@@ -3,18 +3,7 @@
 <head>
 
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors',1);
 
- session_start();
-
-    if (isset($_SESSION['login'])) {
-        
-}else{
-
- header('LOCATION:login.php');
-
-}
 
 echo exec('echo -n "e" >> ctl');
 $stations = file( 'station.txt' );
@@ -49,7 +38,7 @@ input[type="range"]::-webkit-slider-thumb {
 	background: white;
 	margin-top: -12px;
 }
-.tuner{background-image: url("/images/change.png");
+.tuner{background-image: url("images/change.png");
 	background-position:  center;
 	background-repeat: no-repeat;
 	background-color: Transparent;
@@ -67,7 +56,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .back{
-	background-image: url("/images/back.png");
+	background-image: url("images/back.png");
 	background-position:  center;
 	background-repeat: no-repeat;
 	background-color: Transparent;
@@ -85,7 +74,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .love{
-	background-image: url("/images/thumbup-watermark.png");
+	background-image: url("images/thumbup-watermark.png");
 	background-position:  center;
 	background-repeat: no-repeat;
 	background-color: Transparent;
@@ -102,7 +91,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .hate{
-	background-image: url("/images/thumbdown-watermark.png");
+	background-image: url("images/thumbdown-watermark.png");
 	background-position:  center;
 	background-repeat: no-repeat;
 	background-color: Transparent;
@@ -119,7 +108,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .next {
-	background-image: url("/images/btn_skip.png");
+	background-image: url("images/btn_skip.png");
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -136,7 +125,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .pause {
-	background-image: url("/images/btn_pause.png");
+	background-image: url("images/btn_pause.png");
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -154,7 +143,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .play {
-	background-image: url("/images/btn_play.png");
+	background-image: url("images/btn_play.png");
  	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
