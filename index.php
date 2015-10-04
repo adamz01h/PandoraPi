@@ -4,7 +4,15 @@
 
 <?php
 
+ session_start();
 
+    if (isset($_SESSION['login'])) {
+        
+}else{
+
+ header('LOCATION:login.php');
+
+}
 echo exec('echo -n "e" >> ctl');
 $stations = file( 'station.txt' );
 $info = file( 'songinfo.txt' );
