@@ -2,7 +2,7 @@
 pwd=$(pwd)
 
 sudo chmod -R 777 $pwd
-sudo apt-get install php5 libao-dev libgcrypt11-dev libgnutls-dev libfaad-dev libmad0-dev libjson0-dev make pkg-config
+sudo apt-get install php5 libao-dev libgcrypt11-dev libcurl4-gnutls-dev libgnutls-dev libfaad-dev libmad0-dev libjson0-dev make pkg-config
 
 	read -p "Download and compile FFmpeg?[y/n]" -n 1 -r
 	echo    # (optional) move to a new line
