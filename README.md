@@ -20,7 +20,7 @@ sudo apt-get install screen
 $sudo nano /etc/inittab
 change to - > 1:2345:respawn:/sbin/getty -a pi 38400 tty1
 
-$nano .profile
+$nano  ~/.profile
 add ->>
 TTY=$(tty);
 if [[ "$TTY" == "/dev/tty1" ]];
@@ -28,6 +28,6 @@ then
  screen -dmS "pandora" pianobar
 fi
 
-$nano .config/pianobar/config
+$nano ~/.config/pianobar/config
 add ->>
 autostart = 00stationid00
