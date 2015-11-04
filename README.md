@@ -27,3 +27,7 @@ if [[ "$TTY" == "/dev/tty1" ]];
 then
  screen -dmS "pandora" pianobar
 fi
+
+$nano .config/pianobar/config
+add ->>
+autostart = 00stationid00
