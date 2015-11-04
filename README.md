@@ -14,3 +14,16 @@ You may need to change the paths in eventcommand.sh to match your Apache working
 All web files must be set to read & write for all users.
 Soundset.php can use PCM or Master , default is set for PCM
 
+---Automate Pi---
+sudo apt-get install screen
+
+$sudo nano /etc/inittab
+change to - > 1:2345:respawn:/sbin/getty -a pi 38400 tty1
+
+$nano .profile
+add ->>
+TTY=$(tty);
+if [[ "$TTY" == "/dev/tty1" ]];
+then
+ screen -dmS "pandora" pianobar
+fi
